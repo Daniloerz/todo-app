@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: todo-app-ensolvers
+  datasource:
+    url: ${URL_DB}
+    username: ${USER_DB}
+    password:  ${PASS_DB}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+appDescription: "TODO app challenge"
+appVersion: "1.0.0"
